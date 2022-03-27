@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             money_in_case,
             money_coefficient_in_case,
             timer;
-    private final String timer_value = "60";
+    private final String timer_value = "59";
 
 
     @SuppressLint("SetTextI18n")
