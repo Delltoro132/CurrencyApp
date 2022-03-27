@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     public static ArrayList<String> currency_name;
     public static String reassembled_money_name, reassembled_money_coefficient;
     private EditText money_input;
-    private Button button_enter_money, button_update_list;
     private TextView money_name,
             money_coefficient,
             money_info_in_case,
@@ -34,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
             money_coefficient_in_case,
             timer;
     private final String timer_value = "60";
-    private ImageButton loading_value_button, convert_button;
 
 
     @SuppressLint("SetTextI18n")
@@ -52,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
         money_input = findViewById(R.id.money_input);
 
         //Buttons
-        button_enter_money = findViewById(R.id.button_enter_money);
-        convert_button = findViewById(R.id.convert_button);
-        loading_value_button = findViewById(R.id.loading_value_button);
-        button_update_list = findViewById(R.id.button_update_list);
+        Button button_enter_money = findViewById(R.id.button_enter_money);
+        ImageButton convert_button = findViewById(R.id.convert_button);
+        ImageButton loading_value_button = findViewById(R.id.loading_value_button);
+        Button button_update_list = findViewById(R.id.button_update_list);
         timer = findViewById(R.id.timer);
 
         //Timer set value
