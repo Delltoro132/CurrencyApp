@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AppСurrencyTest</string>
+    <string name="main_text">Главная</string>
+    <string name="your_funds_text">Обновить список</string>
+    <string name="name_app_1_text">Валюта</string>
+    <string name="name_app_2_text">App</string>
+    <string name="money_input">Введите ваши средства</string>
+    <string name="button_enter_money">Ввести</string>
+    <string name="button_update_list">Обновить список</string>
+
+    <string name="money_in_case">0.0</string>
+    <string name="money_coefficient_in_case">0.0</string>
+    <string name="money_info_in_case">Условная валюта</string>
+    <string name="automation_update">Обновление через:</string>
+    <string name="timer">10</string>
+
+    <string name="money_name">Выбранная валюта</string>
+    <string name="money_coefficient">Коэффициент</string>
+    <string name="money_name_info">Услованя валюта</string>
+    <string name="error_enter_value">Введите сумму</string>
+    <string name="error_empty_case">На счету нет денег</string>
+    <string name="error_empty_choice">Выберете вылюту</string>
+    <string name="error_choice">Выберете валюту</string>
+    <string name="none">.</string>
+
+    <string-array name="names">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+</resources>
